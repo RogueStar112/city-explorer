@@ -29,6 +29,7 @@ function App() {
 
   return (
     <>
+      {location}
       <form onSubmit={getLocation}>
         <input onChange={handleChange} type="text" placeholder="Location"/>
         <button>Get Location</button>
