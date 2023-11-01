@@ -36,6 +36,7 @@ function App() {
   return (
     <>
       <p>{location.display_name}</p>
+      <p>Lat: {location.lat}, Lon: {location.lon}</p>
       <form onSubmit={getLocation}>
         <input onChange={handleChange} type="text" placeholder="Location"/>
         <button>Get Location</button>
