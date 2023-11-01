@@ -26,6 +26,8 @@ function App() {
 
     const res = await axios.get(API);
 
+    console.log("RES DATA", res.data);
+
     setLocation(res.data[0]);
 
     
